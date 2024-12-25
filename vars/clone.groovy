@@ -1,4 +1,4 @@
-def clone(String url, String branch){
+def call(String url, String branch){
   echo "Clonning the app....."
   git url: "${url}", branch: "${branch}"
   echo "Successfully cloned"
